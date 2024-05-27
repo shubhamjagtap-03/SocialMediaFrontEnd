@@ -1,0 +1,49 @@
+/* UserProfileCard.css */
+
+.profile-card-container {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: flex-start; /* Align user profiles to the left */
+    min-height: 100vh;
+    padding-top: 20px;
+    margin-left: 20%; /* Add some margin on the left for spacing */
+  }
+  
+  /* Container styles */
+  .user-profile-card {
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 16px;
+    background-color: #fff;
+  }
+  
+  .user-profile-card h6 {
+    font-size: medium;
+    margin-bottom: 8px;
+  }
+  
+  /* Bio styles */
+  .user-profile-card p {
+    font-size: 1rem;
+    color: white;
+    margin: 10px 0;
+  }
+  
+  /* Add more profile details here */
+  
+  .profile-card-container-horizontal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .user-profile-card {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+  }
+  

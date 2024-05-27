@@ -1,0 +1,128 @@
+.post-container{
+  margin-left: 17%;
+
+}
+#highlighted{
+margin-bottom: 5px;
+color: rgba(128, 128, 128, 0.765);
+ 
+}
+.rightbar-container{
+  padding-top: 10px;
+  width: 18%;
+}
+.rightbar{
+  padding-bottom: 5px ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.right-bar-data{
+  padding-right: 100px;
+}
+
+.right-bar-data-2 {
+  color: rgba(170, 19, 230, 0.733);
+  font-size: 13px;
+}
+.right-bar-data-2:hover{
+  cursor: pointer;
+}
+.post-Likes{
+  margin-left: 6px;
+}
+.home-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.top-bar{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-post{  
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  max-width: 468px;
+  min-width: 200px;
+  height: max-content;
+  margin-bottom: 30px;
+}
+.card-post img{
+    padding-left: 0;
+    width: 100%;
+    max-height: 585px;   
+}
+  #text{
+    margin-left: none;
+    font-size:12px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+  }
+  #follow-button:hover{
+    cursor: pointer;
+  }
+  .card-content{
+  
+    display: flex;
+    
+  }
+
+.material-icons {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+ .card-icons{
+  
+  margin-right: 10px;  
+
+ }
+#btn{
+  width: 96.3%;
+  padding: 4px;
+ background-color:#35323a ;
+  color: #fff;
+  font-size: 22px;
+  font-family: 'Teko', sans-serif;
+  margin: 0px 0px 10px 5px;
+  cursor: pointer;
+  display: block;
+}
+.post-caption{
+  margin-left: 6px;
+  margin-bottom: 10px;
+}
+#btn:hover{
+  background-color: #35323adc;
+}
+.comment-section {
+  width: 94.7%;
+  margin-left: 5px;
+  display: flex;
+  margin-bottom: 20px;
+  border: 2px solid #35323a;
+  padding: 3px 2px;
+  align-items: center;
+}
+#post-btn{
+  margin-left: 210px;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  font-size: 13px;
+  font-weight: 300;
+}
+.material-icons{
+  color: rgba(255, 0, 0, 0.774);
+}
+.material-icons:hover,
+.material-symbols-rounded:hover{
+  cursor: pointer;
+}

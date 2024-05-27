@@ -1,0 +1,47 @@
+.input-wrapper{
+    background-color: white;
+    width: 40%;
+    
+    height: 2.5rem;
+    padding: 0 15px;
+    box-shadow: 0px 0px 8px #ddd;
+    display: flex;
+    align-items: center;
+    margin-left: 16%;
+   
+}
+
+/*he*/
+input{
+    background-color: transparent;
+    border:none;
+    height:100%;
+    font-size: 1.25rem;
+    width: 100%;
+    margin-left: 5px;
+display: flex;
+
+}
+input:focus{
+    outline: none;
+}
+
+#search-icon{
+    color:#28292d;
+
+}
+#search-icon:hover{
+    cursor: pointer;
+}
+
+/* Your existing CSS styles */
+
+@media screen and (max-width: 1286px) {
+    /* Add responsive styles here */
+    .input-wrapper {
+        width: 45%; /* Adjust width for smaller screens */
+       display: flex; /* Set a maximum width if needed */
+        margin-left: 17%; 
+        /* Adjust margin for centering */
+    }
+}

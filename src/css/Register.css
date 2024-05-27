@@ -1,0 +1,75 @@
+/* Login.css */
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Add this line to vertically center the form and its content */
+    margin-top : 6%;
+    }
+    form h2{
+       font-family: 'Teko', sans-serif;
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    
+    form {
+      background-color: #fff;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+      width: 340px;
+      min-width: 200px;
+    }
+    
+    .form-group {
+      margin-bottom: 20px;
+    }
+    
+   input[type="email"],
+     input[type="password"],
+     input[type='text'] {
+      
+      width: 90%;
+      padding: 7px 8px;
+     font-size:18px;
+      border: 1px solid #ccc;
+      background-color: transparent;
+      outline: none;
+    }
+    
+    button[type="submit"] {
+      width: 95.3%;
+      padding: 3px;
+      background-color: #35323a;
+      color: #fff;
+      border: none;
+      font-size: 22px;
+      font-family: 'Teko', sans-serif;
+      margin: 0px 0px 10px 5px;
+      cursor: pointer;
+      display: block;
+    
+     
+    }
+    
+    button[type="submit"]:hover {
+      background-color:  #35323ac7;
+      
+    }
+    
+    input[type="email"]:focus,
+    input[type="password"]:focus {
+      background-color: transparent; /* Set to transparent or any other desired color */
+    }
+    .form-link {
+      text-decoration: none;
+      font-family: 'Teko', sans-serif;
+      text-align: center;
+      font-size: larger; /* Increase the font size to larger */
+      margin-top: 40px; /* Increase the margin-top for more spacing */
+      margin-bottom: 20px;
+      color: #35323a;
+      padding-top: 20px;
+      margin: 0 auto; 
+  }
